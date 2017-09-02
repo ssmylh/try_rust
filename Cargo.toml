@@ -1,0 +1,42 @@
+[package]
+name = "try_rust"
+version = "0.1.0"
+authors = ["ssmylh <ssmylh@gmail.com>"]
+
+[dependencies]
+
+[[bin]]
+name = "fizzbuzz"
+path = "src/fizzbuzz.rs"
+
+[[bin]]
+name = "higher_order_func"
+path = "src/higher_order_func.rs"
+
+[[bin]]
+name = "variable_binding"
+path = "src/variable_binding.rs"
+
+[[bin]]
+name = "pointer_types"
+path = "src/pointer_types.rs"
+
+[[bin]]
+name = "ownership"
+path = "src/ownership.rs"
+
+[[bin]]
+name = "copy_trait"
+path = "src/copy_trait.rs"
+
+[[bin]]
+name = "borrowing"
+path = "src/borrowing.rs"
+
+[[bin]]
+name = "lifetime"
+path = "src/lifetime.rs"
+
+[[bin]]
+name = "trait"
+path = "src/trait.rs"
